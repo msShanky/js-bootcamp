@@ -9,7 +9,7 @@
 let name = 10;
 // console.log(name, typeof name);x
 name
-	? typeof name === 'string'
+	? typeof name === "bigint"
 		? alert('THE NAME IS A STRING')
 		: typeof name === 'number'
 		? alert('THE NAME IS A NUMBER')
