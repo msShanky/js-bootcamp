@@ -9,9 +9,16 @@
 	</head>
 	<body>
 		<div class="content-wrapper">
-			<div class="score-wrapper">
-				<h1>The Current Score is</h1>
+			<h1>The Current Score is</h1>
+			<div class="flex-wrapper">
 				<p id="score">0</p>
+				<span style="padding: 0 10px;">/</span>
+				<p id="wicket">0</p>
+			</div>
+			<div class="flex-wrapper">
+				<p id="overs">0</p>
+				<span>.</span>
+				<p id="balls">0</p>
 			</div>
 			<div class="button-wrapper">
 				<button onclick="addScore(1)">1</button>
@@ -19,6 +26,7 @@
 				<button onclick="addScore(3)">3</button>
 				<button onclick="addScore(4)">4</button>
 				<button onclick="addScore(6)">6</button>
+				<button onclick="addWicket()">Wicket</button>
 			</div>
 		</div>
 		<script src="script.js"></script>
