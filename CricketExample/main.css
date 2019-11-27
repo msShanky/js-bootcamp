@@ -1,0 +1,11 @@
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+}
+.flex-wrapper.overs {
+  display: flex;
+  align-items: baseline;
+}
+p {
+  font-size: 30px;
+}
